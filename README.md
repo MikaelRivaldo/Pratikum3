@@ -19,11 +19,11 @@ belum ada pada data dosen.
 
 `Jawab :`
 Pada tabel mahasiswa dan dosen saya menginput data seperti diabwah ini:
-# Untuk mahasiswa:
+# Untuk mahasiswa :
 
 ![gambar4](https://github.com/MikaelRivaldo/pratikum3/assets/115770247/57f11a1e-5a33-4a63-8454-9c7e26256160)
 
-# Untuk dosen:
+# Untuk dosen :
 
 ![gambar3](https://github.com/MikaelRivaldo/pratikum3/assets/115770247/6b662de0-066e-4477-8da4-58cc38446aa6)
 
@@ -74,7 +74,7 @@ Untuk melalukan delete pada table dosen bisa menggunakan perintah ini:
 `UPDATE dosen
 SET kd_ds = “M002”,WHERE kd_ds = “M005”;`
 
-# Untuk mahasiswa
+# Untuk mahasiswa :
 `Sebelum`
 ![gambar4](https://github.com/MikaelRivaldo/pratikum3/assets/115770247/d32acbd2-136e-4855-98de-cdf19baaa544)
 
@@ -83,7 +83,7 @@ SET kd_ds = “M002”,WHERE kd_ds = “M005”;`
 
 
 
-# Untuk dosen
+# Untuk dosen :
 
 `Sebelum`
 ![gambar3](https://github.com/MikaelRivaldo/pratikum3/assets/115770247/b3d9ffe5-ddd2-4010-af00-5c0a586873e5)
@@ -97,7 +97,7 @@ UPDATE CASCADE ON DELETE RESTRICT yang kita tambahkan sebelum nya.
 
 5. Lakukan penghapusan data pada table dosen
 
-`Jawab`:
+`Jawab:`
 
 ![gambarr9](https://github.com/MikaelRivaldo/pratikum3/assets/115770247/7197074d-71f2-4f9e-b721-1197f7626524)
 
@@ -109,7 +109,7 @@ tidak akan diizinkan atau di-restrict.
 
 6.Ubah mode menjadi ON UPDATE CASCADE ON DELETE SET NULL
 
-`Jawab`:
+`Jawab:`
 
 # Untuk cara ini sama seperti no 3 yaitu,yaitu menghapus FOREIGN KEY & ON
 UPDATE CASCADE ON DELETE RESTRICT terlebih dahulu dan menambahkan 
@@ -128,7 +128,7 @@ Untuk gambar seperti dibawah ini:
 
 7. Lakukan penghapusan data pada table dosen
 
-`Jawab`:
+`Jawab:`
 
 `Sebelum`
 
