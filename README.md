@@ -61,8 +61,8 @@ bisa di lihat pada bagian kd_ds bahwa kuncinya sudah hilang
 Untuk perintahnya ON UPDATE CASCADE ON DELETE RESTRICT bisa menggunakan seperti dibawah ini:
 
 `ALTER TABLE mahasiswa
-ADD FOREIGN KEY (kd_dosen)
-REFERENCES dosen(kd_dosen)
+ADD FOREIGN KEY (kd_ds)
+REFERENCES dosen(kd_ds)
 ON UPDATE CASCADE ON DELETE RESTRICT`
 
 4.Lakukan perubahan data pada table dosen (kd_ds)
